@@ -1,5 +1,5 @@
 # nWirePhantom_UScalibration
-Procedure and code for using an N-wire phantom and the fCal software to resolve the transformation between the ultrasound image and a marker coordinate system
+Procedure and code for using an N-wire phantom and the (fCal)[http://perk-software.cs.queensu.ca/plus/doc/nightly/user/ApplicationfCal.html] software to resolve the transformation between the ultrasound image and a marker coordinate system
 
 # Instructions for Use
 
