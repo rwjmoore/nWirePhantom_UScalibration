@@ -1,0 +1,160 @@
+--USER DESCRIPTION ------------------------
+[BasicCharParams]
+Classification=5
+CharMethod=0
+[Tool Parameters]
+Tool Manufacturer=NDI
+Tool Part Number=PLUS_multiface
+Revision Number=0
+Tool Type=2
+SubType=1
+Markers=6
+FiringSeq=0001020304050607080000000000000000000000
+Base I=0.0000000
+Base Slope=0.0000000
+Number Faces=2
+Number Groups=1
+GroupMask=11111111100000000000
+FaceMask=0302010102030102010000000000000000000000
+SwitchFlag=09000000
+LEDs=31313131
+Marker Type=41
+Lock=0
+UG Tracking=1
+Wireless=0
+VTX=0
+Max Marker Angle=90
+Min Number Markers=3
+Max 3D Error=2.0000000
+
+--TOOL ALIGNMENT AND NORMALS ------------------------
+[XfrmsAndNorms]
+NumOperations =5
+
+[Xfrm001]
+XfrmType	= 0
+OrgFlag	= 00000000
+A01	= -3.6973e+028f,-3.6973e+028f,-3.6973e+028f
+A02	= -3.2000e+028f,0.0000e+000f,0.0000e+000f
+A03	= -3.6973e+028f,-3.6973e+028f,-3.6973e+028f
+A04	= -3.6973e+028f,-3.6973e+028f,-3.6973e+028f
+A05	= -3.6973e+028f,-3.6973e+028f,-3.6973e+028f
+A06	= 0.0000e+000f,-3.4000e+028f,0.0000e+000f
+A07	= -3.6973e+028f,-3.6973e+028f,-3.6973e+028f
+A08	= -3.4000e+028f,0.0000e+000f,0.0000e+000f
+
+[Xfrm002]
+XfrmType	= 2
+N01	= 5.0780e-003f,-9.9963e-001f,2.6712e-002f
+N02	= 2.1437e-002f,-2.7800e-002f,-9.9938e-001f
+N03	= 2.1437e-002f,-2.7800e-002f,-9.9938e-001f
+N04	= 5.0780e-003f,-9.9963e-001f,2.6712e-002f
+N05	= 5.0780e-003f,-9.9963e-001f,2.6712e-002f
+N06	= 2.1437e-002f,-2.7800e-002f,-9.9938e-001f
+N07	= 5.0780e-003f,-9.9963e-001f,2.6712e-002f
+N08	= 2.1437e-002f,-2.7800e-002f,-9.9938e-001f
+F01	= 5.0780e-003f,-9.9963e-001f,2.6712e-002f
+F02	= 2.1437e-002f,-2.7800e-002f,-9.9938e-001f
+
+[Xfrm003]
+XfrmType	= 2
+N01	= 5.0780e-003f,-9.9963e-001f,2.6712e-002f
+N02	= -2.1437e-002f,2.7800e-002f,9.9938e-001f
+N03	= -2.1437e-002f,2.7800e-002f,9.9938e-001f
+N04	= 5.0780e-003f,-9.9963e-001f,2.6712e-002f
+N05	= 5.0780e-003f,-9.9963e-001f,2.6712e-002f
+N06	= -2.1437e-002f,2.7800e-002f,9.9938e-001f
+N07	= 5.0780e-003f,-9.9963e-001f,2.6712e-002f
+N08	= -6.1065e-001f,7.9190e-001f,0.0000e+000f
+F01	= 5.0780e-003f,-9.9963e-001f,2.6712e-002f
+F02	= -2.1437e-002f,2.7800e-002f,9.9938e-001f
+
+[Xfrm004]
+XfrmType	= 0
+OrgFlag	= 000000
+A01	= -3.2000e+028f,0.0000e+000f,0.0000e+000f
+A02	= -3.6973e+028f,-3.6973e+028f,-3.6973e+028f
+A03	= -3.6973e+028f,-3.6973e+028f,-3.6973e+028f
+A04	= -3.6973e+028f,-3.6973e+028f,-3.6973e+028f
+A05	= 0.0000e+000f,-3.4000e+028f,0.0000e+000f
+A06	= -3.4000e+028f,0.0000e+000f,0.0000e+000f
+
+[Xfrm005]
+XfrmType	= 2
+N01	= 1.4924e-002f,-9.6799e-001f,2.5053e-001f
+N02	= -2.9757e-002f,2.5119e-001f,9.6748e-001f
+N03	= 1.4924e-002f,-9.6799e-001f,2.5053e-001f
+N04	= 1.4924e-002f,-9.6799e-001f,2.5053e-001f
+N05	= -2.9757e-002f,2.5119e-001f,9.6748e-001f
+N06	= 1.4924e-002f,-9.6799e-001f,2.5053e-001f
+F01	= 1.4924e-002f,-9.6799e-001f,2.5053e-001f
+F02	= -2.9757e-002f,2.5119e-001f,9.6748e-001f
+
+[Xfrm Parameters]
+Abort On Error=TRUE
+Max Average RMS Error=2.0000000
+Max Iterations=100
+Max Coordinate Error=0.7500000
+Max Chi Square Error=2.0000000
+Pitch Accuracy=0.0000020
+Roll Accuracy=0.0000020
+Xt Accuracy=0.0020000
+Yaw Accuracy=0.0000020
+Yt Accuracy=0.0020000
+Zt Accuracy=0.0020000
+[Estimate]
+Markers=6
+P01=-72.37,-16.21,-15.34
+P02=-45.67, 44.05, -0.82
+P03=-34.43,-17.89,-85.61
+P04=-11.13,-16.46,-36.37
+P05=  0.00, 49.72,  0.00
+P06= 39.24,-17.32,-16.60
+
+--BUILD INFORMATION----------------------------
+[Build Parameters]
+Iterations=1
+Iteration01Overlay=1.0000000
+Iteration01Marker=1.0000000
+Abort on Error=FALSE
+Max Overlay Iterations=200
+Min Marker Views=1
+[Polaris]
+CommPort=1
+BaudRate=4
+Parity=0
+Handshake=1
+DataBits=8
+StopBits=1
+Use TCP=0
+TCP Address=
+TCP Port=8765
+Revision=0.000
+SerialNumber=P7-00060
+[PostBuild]
+ToolPort=
+EndProgramSROM=0
+EndProgramUserSROM=0
+EndTest=1
+EndUGTest=1
+Pivot=0
+AlignmentDevice=0
+EndSave=1
+MoveToCentroid=1
+[Collection]
+Tracking Options=-1
+Collection Units=0
+Collection Frames=300
+Delay=0
+Volume Selection=1
+Save Directory=C:\ndigital
+File Name=ToolChar
+Save Time=1
+Save PartNum=1
+File Format=1
+ToolPort=00
+[Polaris Tolerances]
+SegThres=0.450
+DotProductThres=200.000
+[FileType]
+Description=
