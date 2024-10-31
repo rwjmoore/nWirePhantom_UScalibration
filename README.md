@@ -30,6 +30,7 @@ This is the most important step in the calibration process. The key fields requi
 
 # Additional Tools
 - The two files " NWirePhantomCalibration_5cm120sector " and " NWirePhantomCalibration_4cm120sector " are already cropped to the described depth and sector with the 14L3 probe. Note that these also have phantom calibrations and a spatial calibration present in these files, which is useful for seeing what they look like.
+- MATLAB script "processTransform.m" is useful for assessing performance of registration. It will tell you the reprojected width and depth of the US image, which you can compare with transducer width and imaging depth 
 - For coordinate systems and description of the fCal software: http://perk-software.cs.queensu.ca/plus/doc/nightly/user/ApplicationfCal.html
 - Method used to register the image to the probe tracker coordinate system: https://doi.org/10.1007/s11548-013-0904-9
 
