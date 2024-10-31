@@ -26,4 +26,10 @@ This is the most important step in the calibration process. The key fields requi
 
 # Troubleshooting
 - If you are not finding any fiducial candidates during the spatial calibration then you most likely have changed the cropping parameters and the approximate ApproximateSpacingMmPerPixel field in the xml file is no longer accurate. Find the length of the transducer from its datasheet and divide this by the number of pixels (pixel width of your US image) and put this value into the ApproximateSpacingMmPerPixel field in the xml file.
-- If you want to change the 
+- If you want to change the cropping, make sure to change the ClipRectangelOrigin and the ClipRectangleSize in both the <Segmentation> and the <DataSource> fields for the US.
+
+# Additional Tools
+The two files " NWirePhantomCalibration_5cm120sector " and " NWirePhantomCalibration_4cm120sector " are already cropped to the described depth and sector with the 14L3 probe. Note that these also have phantom calibrations and a spatial calibration present in these files, which is useful for seeing what they look like. 
+
+
+PLUS CAD files: http://perk-software.cs.queensu.ca/plus/doc/nightly/modelcatalog/ 
